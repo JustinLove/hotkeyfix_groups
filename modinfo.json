@@ -6,7 +6,7 @@
   "date": "2014/07/05",
   "description": "Hotfix for rapidly switching between control groups, broken in 68253",
   "display_name": "Hotkeyfix Groups",
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/hotkeyfix-groups-68253.61657/",
   "identifier": "com.wondible.pa.hotkeyfix_groups",
   "priority": 100,
   "scenes": {
