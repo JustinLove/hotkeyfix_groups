@@ -1,0 +1,20 @@
+{
+  "author": "wondible",
+  "build": "68253",
+  "category": ["hotfix"],
+  "context": "client",
+  "date": "2014/07/05",
+  "description": "Hotfix for rapidly switching between control groups, broken in 68253",
+  "display_name": "Hotkeyfix Groups",
+  "forum": null,
+  "identifier": "com.wondible.pa.hotkeyfix_groups",
+  "priority": 100,
+  "scenes": {
+    "live_game": [
+      "coui://ui/mods/hotkeyfix_groups/hotfix.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "1.0.0"
+}
+
