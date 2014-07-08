@@ -7,7 +7,7 @@
       height: 400,
       width: 600,
       modal: true,
-      autoOpen: model.buildVersion() != '68253',
+      autoOpen: model.buildVersion() != '68331',
       buttons: {
           "EXIT": function () {
               model.exit();
@@ -34,5 +34,9 @@
     loadTemplate(container, 'coui://ui/mods/hotkeyfix_groups/warning.html', model);
   }
 
-  //enableCanery()
+  if (model.buildVersion()) {
+    enableCanery()
+  } else {
+    model.buildVersion.subscribe(enableCanery)
+  }
 })()
